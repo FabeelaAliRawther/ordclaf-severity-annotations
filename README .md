@@ -42,20 +42,18 @@ without comparing notes until all annotations were complete.
 
 ## Source data
 
-The tweets in this repository are a stratified sample drawn from the
-Davidson et al. (2017) *Hate Speech and Offensive Language* dataset
-(https://github.com/t-davidson/hate-speech-and-offensive-language),
-licensed under the MIT License. The original license notice is preserved
-below; our own annotations (all novel
-material produced for this study) are released separately .
+The tweets in the human validation set are drawn from the TweetEval 
+benchmark's Offensive Language split (Barbieri et al., 2020), which is 
+itself built on the OLID dataset (Zampieri et al., 2019).
 
-**Citation for the source data:**
+Citation:
+> Barbieri, F., Camacho-Collados, J., Espinosa-Anke, L., & Neves, L. (2020). 
+> TweetEval: Unified Benchmark and Comparative Evaluation for Tweet 
+> Classification. Findings of EMNLP 2020, 1644–1650.
 
-> Davidson, T., Warmsley, D., Macy, M., & Weber, I. (2017). Automated Hate
-> Speech Detection and the Problem of Offensive Language. *Proceedings of
-> the 11th International AAAI Conference on Web and Social Media (ICWSM)*,
-> 512–515.
-
+> Zampieri, M., Malmasi, S., Nakov, P., Rosenthal, S., Farra, N., & 
+> Kumar, R. (2019). Predicting the Type and Target of Offensive Posts in 
+> Social Media. Proceedings of NAACL-HLT 2019, 1415–1420.
 ---
 
 ## Repository structure
