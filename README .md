@@ -42,7 +42,7 @@ without comparing notes until all annotations were complete.
 
 ## Source data
 
-The tweets in the human validation set are drawn from the TweetEval 
+The tweets in this repository are a stratified sample drawn from the TweetEval 
 benchmark's Offensive Language split (Barbieri et al., 2020), which is 
 itself built on the OLID dataset (Zampieri et al., 2019).
 
