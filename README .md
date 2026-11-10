@@ -23,7 +23,6 @@ This repository contains the component produced during the study:
 | `tweet_text` | Tweet text shown to annotators (one row has empty/deleted text, retained for completeness) |
 | `annotator1_label` | Annotator 1's severity score (0 = Not-Offensive, 1 = Low, 2 = Mild, 3 = High) |
 | `annotator2_label` | Annotator 2's severity score (0–3, same scale) |
-| `annotator3_label` | Annotator 3's severity score (0–3, same scale) |
 
 **Label scale** (full definitions in `annotation_guidelines.md`):
 
