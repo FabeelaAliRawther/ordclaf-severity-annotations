@@ -37,6 +37,24 @@ Annotators were instructed to default to the higher score when uncertain,
 score the text rather than their personal reaction, and label independently
 without comparing notes until all annotations were complete.
 
+
+# OrdCLAF severity lexicon — column description
+
+File: `ordclaf_severity_lexicon.csv` (273 rows, one word per row)
+
+| Column | Description | Values |
+|---|---|---|
+| `word` | The word (lower-case) | text |
+| `frequency` | Number of offensive test tweets that contain the word | 3 – 145 |
+| `avg_severity` | Average severity label of the tweets containing the word (1 = Low, 2 = Mild, 3 = High) | 1.0 – 3.0 |
+| `severity_label` | Severity band of the word, from `avg_severity`: 1.0–1.99 = Low, 2.0–2.99 = Mild, 3.0 = High | Low / Mild / High |
+| `dominant_expert` | Expert that received the highest average routing weight for the word (0 = Low expert, 1 = Mild expert, 2 = High expert) | 0 / 1 / 2 |
+| `w_expert0_low` | Average routing weight given to Expert 0 (Low) | 0 – 1 |
+| `w_expert1_mild` | Average routing weight given to Expert 1 (Mild) | 0 – 1 |
+| `w_expert2_high` | Average routing weight given to Expert 2 (High) | 0 – 1 |
+
+The three weight columns of each row sum to 1.
+
 ---
 
 ## Source data
